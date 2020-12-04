@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "../node_modules/crypto-js/crypto-js.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,7 +96,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "../node_modules/crypto-js/crypto-js.js"
+            ]
           }
         },
         "lint": {
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-encryption-descryption"
+    }
+  },
+  "defaultProject": "ng-encryption-descryption",
+  "cli": {
+    "analytics": "cdb8c94a-5dbd-432e-a554-f2e92d2cc4ae"
+  }
 }
